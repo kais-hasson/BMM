@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {paragraphItem} from '../../config/paragraph';
+import {helloParagraphItem, wellcomeParagraph} from '../../config/paragraph';
 import {NgClass, NgIf, NgOptimizedImage} from '@angular/common';
 import {AudioService} from '../../audio-config/audio.service';
 
@@ -17,7 +17,8 @@ export class Home {
   playing = false;
   private audio = new Audio('\\assets\\audios\\audio.ogg');
   constructor(private audioService: AudioService) {}
-  theParagraph=paragraphItem
+  theParagraph=helloParagraphItem
+  wellcomeParagraph=wellcomeParagraph
   playSound(type:any) {
     this.audio.play();
     this.playing=true}

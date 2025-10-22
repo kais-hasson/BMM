@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {paragraphItem} from "../../config/paragraph";
+import {CmykModelParagraph, helloParagraphItem, RgpModelParagraph} from "../../config/paragraph";
 import {NgOptimizedImage} from '@angular/common';
 
 @Component({
@@ -12,5 +12,7 @@ import {NgOptimizedImage} from '@angular/common';
 })
 export class ColorModels {
 
-    protected readonly theParagraph = paragraphItem;
+    protected readonly RgpModelParagraph = RgpModelParagraph;
+    protected readonly CmykModelParagraph = CmykModelParagraph;
+
 }
