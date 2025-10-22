@@ -95,7 +95,7 @@
 <!-- Dialog -->
 <div class="custom-dialog sm:w-[50%] sm:h-[50%] h-[80%] w-[100%] sm:left-[25%] left-[0%] backdrop-brightness-100 flex flex-col" [class.show]="isDialogOpen">
   <div class="header-dialog flex items-center justify-between h-[4rem] w-full bg-[var(--color-button-primary)]">
-    <button (click)="closeDialog()">  <img ngSrc="assets\x-circle.svg" class="image" width="50" height="50" priority></button>
+    <button class="cursor-pointer" (click)="closeDialog()">  <img ngSrc="assets\x-circle.svg" class="image" width="50" height="50" priority></button>
     <h2>كيف يعمل الذكاء الصناعي في توليد هذه الصور؟</h2>
   </div>
   <div class="dialog-content">
