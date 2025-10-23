@@ -8,7 +8,7 @@ export const defaultMenuItems: NavigationItem [] =
     {
       title: 'Home',
       icon: '',
-      link: '/home',
+      link: '/',
     },
     {
       title: 'Color Models',

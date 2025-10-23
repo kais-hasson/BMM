@@ -15,7 +15,7 @@ import {AudioService} from '../../audio-config/audio.service';
 })
 export class Home {
   playing = false;
-  private audio = new Audio('\\assets\\audios\\audio.ogg');
+  private audio = new Audio('\\assets\\audios\\Text-to-speech-project.ogg');
   constructor(private audioService: AudioService) {}
   theParagraph=helloParagraphItem
   wellcomeParagraph=wellcomeParagraph
