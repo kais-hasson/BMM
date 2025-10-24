@@ -1,0 +1,9 @@
+[[redirects]]
+from ="/*"
+to="/index.html"
+status=200
+
+[[redirects]]
+from ="/color-models"
+to="/index.html/color-models"
+status=200
